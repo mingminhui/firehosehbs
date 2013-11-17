@@ -21,15 +21,23 @@ body {
 }
 
 .h1-custom {
-	font-family: Helvetica Neue Light,Helvetica Neue,Helvetica,san-serif;
+	font-family: Helvetica Neue Light, Helvetica Neue, Helvetica, san-serif;
 	font-weight: 100;
 	font-size: 64px;
 	color: white;
+	line-height:70px;
 }
 
 .h2-custom {
-	font-family: Helvetica Neue Light,Helvetica Neue,Helvetica,san-serif;
+	font-family: Helvetica Neue Light, Helvetica Neue, Helvetica, san-serif;
 	font-weight: 200;
 	font-size: 36px;
+	color: white;
+}
+
+label {
+	font-family: Helvetica Neue Light, Helvetica Neue, Helvetica, san-serif;
+	font-weight: 100;
+	font-size: 18px;
 	color: white;
 }
