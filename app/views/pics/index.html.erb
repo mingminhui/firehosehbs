@@ -1,8 +1,11 @@
 <% @pics.each do |pic| %>
 <div class="span6 boxy text-center">
 	<h1 class="h1-custom">
-	Lesson: <%= pic.lesson %>
+		Lesson: <%= pic.lesson %>
 	</h1>
+
+	<%= image_tag pic.image %>
+
 	<br/>
 	<h2 class="h2-custom">
 		Emotion: <%= pic.emotion %>
